@@ -18,6 +18,15 @@ body{
 .nav-menu-list{
     list-style: none;
 }
+.tech-type-ul>li{
+    list-style: none;
+}
+.tech-type-ul>li>i{
+    font-size:18px;
+   
+    color:rgba(123, 160, 230, 0.705);
+    margin-right: 3px;
+}
 .nav-menu-list>a{
     text-decoration: none;
     color: black;
@@ -30,10 +39,10 @@ body{
     flex-direction: column;
    padding-left:100px;
     justify-content: center;
+    
    background-repeat:no-repeat;
    width:92%;
-    height:700px;
-
+   height:700px;
 }
 
 .banner>*{
